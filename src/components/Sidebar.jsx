@@ -82,7 +82,6 @@ const Sidebar = ({ recipeQueue, handleRemoveRecipe, preparedRecipe, calculateTim
                 </table>
             </div>
         </div>
-
     );
 };
 

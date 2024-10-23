@@ -4,6 +4,7 @@ import Header from "./components/Header"
 import Recipes from "./components/Recipes"
 import Sidebar from "./components/Sidebar";
 import OurRecipes from "./components/OurRecipes";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -64,7 +65,8 @@ function App() {
           totalCalories={totalCalories}
         />
       </div>
-
+      {/* Footer Section */}
+      <Footer />
     </>
   )
 }
